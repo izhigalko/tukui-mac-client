@@ -1,0 +1,581 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1844CF46239ABC8B006F0F61 /* TukUIApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844CF45239ABC8B006F0F61 /* TukUIApiClient.swift */; };
+		C8D992B26A0484B4118CB797 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D99F3A8DAB74E38E6DC7FC /* Preview Assets.xcassets */; };
+		C8D994E83B695E429439440E /* Addon.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9948662AF9A62D56BDB42 /* Addon.swift */; };
+		C8D99828A42995B227AD6AC1 /* tukui_clientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D99219EA89A315582D79B7 /* tukui_clientUITests.swift */; };
+		C8D9985A8A6EBE35DD4F55A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8D99CA665BA863D02F21467 /* Main.storyboard */; };
+		C8D99983D3DDEE21E306DE11 /* AddonRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D99A761AF571BB5E3E131F /* AddonRow.swift */; };
+		C8D999B36491925E8CDB374F /* tukui_clientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D99F83BCCF89ECEBFCF9D7 /* tukui_clientTests.swift */; };
+		C8D99D44519E2A24B6D3F2DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9968706CAF9FE47EC533B /* ContentView.swift */; };
+		C8D99E4C84D4E9777C976311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D99CD4E92A1DE9F290B08C /* Assets.xcassets */; };
+		C8D99FED5B7C75FA399D1836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9913436DF7B5F91C98E9A /* AppDelegate.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C8D991D127D9502720215A34 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D999AD9EDA519F1927AF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D99E00671164AA35DF6C71;
+			remoteInfo = "tukui-client";
+		};
+		C8D99739C328AAEB0DB309CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C8D999AD9EDA519F1927AF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C8D99E00671164AA35DF6C71;
+			remoteInfo = "tukui-client";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1844CF45239ABC8B006F0F61 /* TukUIApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TukUIApiClient.swift; sourceTree = "<group>"; };
+		C8D990D963A7D0793427B054 /* tukui-client.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "tukui-client.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D9913436DF7B5F91C98E9A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C8D99219EA89A315582D79B7 /* tukui_clientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tukui_clientUITests.swift; sourceTree = "<group>"; };
+		C8D993343474FD6375C584C5 /* tukui-clientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tukui-clientTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D9945A5E7C0F6C4E553082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C8D9948662AF9A62D56BDB42 /* Addon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Addon.swift; sourceTree = "<group>"; };
+		C8D9967FEEF68B8430BB3150 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C8D9968706CAF9FE47EC533B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C8D997866A8CFC62C7FDF20A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C8D99819CEA89412C6E72652 /* tukui_client.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = tukui_client.entitlements; sourceTree = "<group>"; };
+		C8D99A761AF571BB5E3E131F /* AddonRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddonRow.swift; sourceTree = "<group>"; };
+		C8D99B4B03032AF654738479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
+		C8D99CD4E92A1DE9F290B08C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C8D99EB6C26491BA4E10DC4A /* tukui-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tukui-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8D99F3A8DAB74E38E6DC7FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C8D99F83BCCF89ECEBFCF9D7 /* tukui_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tukui_clientTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C8D9940E80B3B320DE434338 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D99B65A5BCFB786792C43A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D99F664E2A6820E702F099 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1844CF44239ABC5B006F0F61 /* ApiClient */ = {
+			isa = PBXGroup;
+			children = (
+				1844CF45239ABC8B006F0F61 /* TukUIApiClient.swift */,
+			);
+			path = ApiClient;
+			sourceTree = "<group>";
+		};
+		C8D990490C243EE90C1DF95B /* POJO */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9948662AF9A62D56BDB42 /* Addon.swift */,
+			);
+			path = POJO;
+			sourceTree = "<group>";
+		};
+		C8D991A60F61D5D0BF34F3E5 /* tukui-clientTests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D9945A5E7C0F6C4E553082 /* Info.plist */,
+				C8D99F83BCCF89ECEBFCF9D7 /* tukui_clientTests.swift */,
+			);
+			path = "tukui-clientTests";
+			sourceTree = "<group>";
+		};
+		C8D9929EC464D92DE182C388 /* tukui-client */ = {
+			isa = PBXGroup;
+			children = (
+				1844CF44239ABC5B006F0F61 /* ApiClient */,
+				C8D9967FEEF68B8430BB3150 /* Info.plist */,
+				C8D99CD4E92A1DE9F290B08C /* Assets.xcassets */,
+				C8D99819CEA89412C6E72652 /* tukui_client.entitlements */,
+				C8D9913436DF7B5F91C98E9A /* AppDelegate.swift */,
+				C8D99CA665BA863D02F21467 /* Main.storyboard */,
+				C8D9968706CAF9FE47EC533B /* ContentView.swift */,
+				C8D998401175C6C36D8A1C4F /* Preview Content */,
+				C8D99AF86D93D091E1F51CEE /* UI */,
+				C8D990490C243EE90C1DF95B /* POJO */,
+			);
+			path = "tukui-client";
+			sourceTree = "<group>";
+		};
+		C8D99716217A416CAE960247 /* tukui-clientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C8D99B4B03032AF654738479 /* Info.plist */,
+				C8D99219EA89A315582D79B7 /* tukui_clientUITests.swift */,
+			);
+			path = "tukui-clientUITests";
+			sourceTree = "<group>";
+		};
+		C8D998401175C6C36D8A1C4F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C8D99F3A8DAB74E38E6DC7FC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C8D998C4807E0467B81FCDA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C8D990D963A7D0793427B054 /* tukui-client.app */,
+				C8D993343474FD6375C584C5 /* tukui-clientTests.xctest */,
+				C8D99EB6C26491BA4E10DC4A /* tukui-clientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8D99AF86D93D091E1F51CEE /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C8D99A761AF571BB5E3E131F /* AddonRow.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C8D99D13380A6CFC180FDA4F = {
+			isa = PBXGroup;
+			children = (
+				C8D998C4807E0467B81FCDA1 /* Products */,
+				C8D9929EC464D92DE182C388 /* tukui-client */,
+				C8D991A60F61D5D0BF34F3E5 /* tukui-clientTests */,
+				C8D99716217A416CAE960247 /* tukui-clientUITests */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C8D99217A706EE8B0693B115 /* tukui-clientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D99EB927F8250D83A922FA /* Build configuration list for PBXNativeTarget "tukui-clientTests" */;
+			buildPhases = (
+				C8D9925667A064C6E07D2867 /* Sources */,
+				C8D99B65A5BCFB786792C43A /* Frameworks */,
+				C8D99D7021028E84CAD121A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D9904EA658E3EA010FF2ED /* PBXTargetDependency */,
+			);
+			name = "tukui-clientTests";
+			productName = "tukui-clientTests";
+			productReference = C8D993343474FD6375C584C5 /* tukui-clientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C8D99E00671164AA35DF6C71 /* tukui-client */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D999E7101FA0654CE3907E /* Build configuration list for PBXNativeTarget "tukui-client" */;
+			buildPhases = (
+				C8D9998E7AF01B35C56988D1 /* Sources */,
+				C8D99F664E2A6820E702F099 /* Frameworks */,
+				C8D994D8D7ACAE923BFC66B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "tukui-client";
+			productName = "tukui-client";
+			productReference = C8D990D963A7D0793427B054 /* tukui-client.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C8D99F12BFB690AAB0040BF3 /* tukui-clientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C8D997CD2B11427E8F4D877C /* Build configuration list for PBXNativeTarget "tukui-clientUITests" */;
+			buildPhases = (
+				C8D99B494B490B9707C1A084 /* Sources */,
+				C8D9940E80B3B320DE434338 /* Frameworks */,
+				C8D992DF53F520216FE24FE2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C8D995E0B28EBCAD5F85E565 /* PBXTargetDependency */,
+			);
+			name = "tukui-clientUITests";
+			productName = "tukui-clientUITests";
+			productReference = C8D99EB6C26491BA4E10DC4A /* tukui-clientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C8D999AD9EDA519F1927AF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Ilya Zhigalko";
+			};
+			buildConfigurationList = C8D99349C05C6EBADC454AC5 /* Build configuration list for PBXProject "tukui-client" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = C8D99D13380A6CFC180FDA4F;
+			productRefGroup = C8D998C4807E0467B81FCDA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C8D99E00671164AA35DF6C71 /* tukui-client */,
+				C8D99217A706EE8B0693B115 /* tukui-clientTests */,
+				C8D99F12BFB690AAB0040BF3 /* tukui-clientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C8D992DF53F520216FE24FE2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D994D8D7ACAE923BFC66B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D99E4C84D4E9777C976311 /* Assets.xcassets in Resources */,
+				C8D9985A8A6EBE35DD4F55A9 /* Main.storyboard in Resources */,
+				C8D992B26A0484B4118CB797 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D99D7021028E84CAD121A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C8D9925667A064C6E07D2867 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D999B36491925E8CDB374F /* tukui_clientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D9998E7AF01B35C56988D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D99FED5B7C75FA399D1836 /* AppDelegate.swift in Sources */,
+				1844CF46239ABC8B006F0F61 /* TukUIApiClient.swift in Sources */,
+				C8D99D44519E2A24B6D3F2DE /* ContentView.swift in Sources */,
+				C8D99983D3DDEE21E306DE11 /* AddonRow.swift in Sources */,
+				C8D994E83B695E429439440E /* Addon.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8D99B494B490B9707C1A084 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8D99828A42995B227AD6AC1 /* tukui_clientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C8D9904EA658E3EA010FF2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D99E00671164AA35DF6C71 /* tukui-client */;
+			targetProxy = C8D99739C328AAEB0DB309CE /* PBXContainerItemProxy */;
+		};
+		C8D995E0B28EBCAD5F85E565 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C8D99E00671164AA35DF6C71 /* tukui-client */;
+			targetProxy = C8D991D127D9502720215A34 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C8D99CA665BA863D02F21467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C8D997866A8CFC62C7FDF20A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C8D9926DA0005CE9C88C170A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "tukui-client/tukui_client.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"tukui-client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tukui-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.izhigalko.wow.tukui-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		C8D993110A8065E0BB842576 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tukui-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.izhigalko.wow.tukui-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tukui-client";
+			};
+			name = Debug;
+		};
+		C8D9962B7962B21ECEE74030 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tukui-clientUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.izhigalko.wow.tukui-clientUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "tukui-client";
+			};
+			name = Release;
+		};
+		C8D99784019920B3EFE73C4C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tukui-client.app/Contents/MacOS/tukui-client";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tukui-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.izhigalko.wow.tukui-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+		C8D9982F246284B9387755CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/tukui-client.app/Contents/MacOS/tukui-client";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "tukui-clientTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.izhigalko.wow.tukui-clientTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		C8D9996BE111691A26EC264C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "tukui-client/tukui_client.entitlements";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"tukui-client/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "tukui-client/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "ru.izhigalko.wow.tukui-client";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		C8D999EC50F03D56CEAE3735 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C8D99FECD4FA348179B1085D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C8D99349C05C6EBADC454AC5 /* Build configuration list for PBXProject "tukui-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D999EC50F03D56CEAE3735 /* Debug */,
+				C8D99FECD4FA348179B1085D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D997CD2B11427E8F4D877C /* Build configuration list for PBXNativeTarget "tukui-clientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D993110A8065E0BB842576 /* Debug */,
+				C8D9962B7962B21ECEE74030 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D999E7101FA0654CE3907E /* Build configuration list for PBXNativeTarget "tukui-client" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D9926DA0005CE9C88C170A /* Debug */,
+				C8D9996BE111691A26EC264C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C8D99EB927F8250D83A922FA /* Build configuration list for PBXNativeTarget "tukui-clientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C8D9982F246284B9387755CA /* Debug */,
+				C8D99784019920B3EFE73C4C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C8D999AD9EDA519F1927AF7A /* Project object */;
+}
