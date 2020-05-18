@@ -17,6 +17,9 @@
 		C8D99D44519E2A24B6D3F2DE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9968706CAF9FE47EC533B /* ContentView.swift */; };
 		C8D99E4C84D4E9777C976311 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8D99CD4E92A1DE9F290B08C /* Assets.xcassets */; };
 		C8D99FED5B7C75FA399D1836 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8D9913436DF7B5F91C98E9A /* AppDelegate.swift */; };
+		CF176460243CAF4400A645AA /* AddonService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF17645F243CAF4400A645AA /* AddonService.swift */; };
+		CF176466243CB89200A645AA /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF176465243CB89200A645AA /* Models.swift */; };
+		CF176468243CC41200A645AA /* TocFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF176467243CC41200A645AA /* TocFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,9 @@
 		C8D99EB6C26491BA4E10DC4A /* tukui-clientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "tukui-clientUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8D99F3A8DAB74E38E6DC7FC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8D99F83BCCF89ECEBFCF9D7 /* tukui_clientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tukui_clientTests.swift; sourceTree = "<group>"; };
+		CF17645F243CAF4400A645AA /* AddonService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddonService.swift; sourceTree = "<group>"; };
+		CF176465243CB89200A645AA /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		CF176467243CC41200A645AA /* TocFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TocFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,12 +87,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1844CF44239ABC5B006F0F61 /* ApiClient */ = {
+		1844CF44239ABC5B006F0F61 /* TukUI */ = {
 			isa = PBXGroup;
 			children = (
 				1844CF45239ABC8B006F0F61 /* TukUIApiClient.swift */,
 			);
-			path = ApiClient;
+			path = TukUI;
 			sourceTree = "<group>";
 		};
 		C8D990490C243EE90C1DF95B /* POJO */ = {
@@ -109,7 +115,8 @@
 		C8D9929EC464D92DE182C388 /* tukui-client */ = {
 			isa = PBXGroup;
 			children = (
-				1844CF44239ABC5B006F0F61 /* ApiClient */,
+				CF17645E243CAF1F00A645AA /* WoW */,
+				1844CF44239ABC5B006F0F61 /* TukUI */,
 				C8D9967FEEF68B8430BB3150 /* Info.plist */,
 				C8D99CD4E92A1DE9F290B08C /* Assets.xcassets */,
 				C8D99819CEA89412C6E72652 /* tukui_client.entitlements */,
@@ -119,6 +126,7 @@
 				C8D998401175C6C36D8A1C4F /* Preview Content */,
 				C8D99AF86D93D091E1F51CEE /* UI */,
 				C8D990490C243EE90C1DF95B /* POJO */,
+				CF176465243CB89200A645AA /* Models.swift */,
 			);
 			path = "tukui-client";
 			sourceTree = "<group>";
@@ -166,6 +174,15 @@
 				C8D991A60F61D5D0BF34F3E5 /* tukui-clientTests */,
 				C8D99716217A416CAE960247 /* tukui-clientUITests */,
 			);
+			sourceTree = "<group>";
+		};
+		CF17645E243CAF1F00A645AA /* WoW */ = {
+			isa = PBXGroup;
+			children = (
+				CF17645F243CAF4400A645AA /* AddonService.swift */,
+				CF176467243CC41200A645AA /* TocFile.swift */,
+			);
+			path = WoW;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -230,14 +247,14 @@
 		C8D999AD9EDA519F1927AF7A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = "Ilya Zhigalko";
 			};
 			buildConfigurationList = C8D99349C05C6EBADC454AC5 /* Build configuration list for PBXProject "tukui-client" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				English,
 				en,
 				Base,
 			);
@@ -297,7 +314,10 @@
 				1844CF46239ABC8B006F0F61 /* TukUIApiClient.swift in Sources */,
 				C8D99D44519E2A24B6D3F2DE /* ContentView.swift in Sources */,
 				C8D99983D3DDEE21E306DE11 /* AddonRow.swift in Sources */,
+				CF176460243CAF4400A645AA /* AddonService.swift in Sources */,
 				C8D994E83B695E429439440E /* Addon.swift in Sources */,
+				CF176468243CC41200A645AA /* TocFile.swift in Sources */,
+				CF176466243CB89200A645AA /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -341,6 +361,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "tukui-client/tukui_client.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"tukui-client/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
@@ -412,6 +433,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = "tukui-client/tukui_client.entitlements";
+				CODE_SIGN_IDENTITY = "-";
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_ASSET_PATHS = "\"tukui-client/Preview Content\"";
 				ENABLE_PREVIEWS = YES;

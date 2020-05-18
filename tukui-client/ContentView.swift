@@ -9,20 +9,28 @@
 import SwiftUI
 
 struct ContentView: View {
-    private let client: TukUIApiClient = TukUIApiClient()
-
     @State var addons: [Addon] = [Addon]()
     @State var error: Error? = nil
     @State var showError: Bool = false
+    
+    let ctx: ApplicationContext!
 
+    init(_ ctx: ApplicationContext!) {
+        self.ctx = ctx
+    }
+    
     var body: some View {
         VStack {
             List(self.addons, id: \.id) { (item: Addon) in
                 VStack(alignment: .leading) {
-                    Text(item.name).font(.headline)
+                    HStack {
+                        Text(self.isAddonInstalled(item)).font(.headline)
+                        Text(item.name).font(.headline)
+                    }
                 }
             }.onAppear() {
-                self.client.searchAddons(startsWith: nil, onComplete: self.setAddons, onError: self.onLoadError)
+                self.ctx.setup(self.onError)
+                self.ctx.api.getAddonsWithCore(self.setAddons, self.onError)
             }
         }.alert(isPresented: $showError) {
             Alert(title: Text("Error"), message: Text(self.error!.localizedDescription), dismissButton: .default(Text("OK")))
@@ -33,15 +41,16 @@ struct ContentView: View {
         self.addons = addons
     }
 
-    private func onLoadError(error: Error) {
+    private func onError(error: Error) {
         self.error = error
         self.showError = true
     }
-}
-
-
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView()
+    
+    private func isAddonInstalled(_ addon: Addon) -> String {
+        let isInstalled = self.ctx.installed.isAddonInstalled({ localAddon in
+            return localAddon.name == addon.name
+        })
+        
+        return isInstalled ? "Yes" : "No"
     }
 }
